@@ -43,7 +43,7 @@ int main()
 		std::cout << "Base Adress GMH = " << std::hex << myBaseAdressGMH << std::endl;
 		
 		
-		std::cout << "varInt       (0x" << &varInt << ") = " << varInt << '\n';
+		std::cout << "varInt       (0x" << &varInt << ") = " << std::dec << varInt << '\n';
 		std::cout << "Press ENTER to print again\n\n";
 		std::cout << "-------------------------------\n";
 
